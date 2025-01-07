@@ -12,7 +12,7 @@ namespace TagerProject.Services
     {
         private readonly ApplicationDbContext _dbContext;
         private readonly MembershipNumberHelper _membershipNumberHelper;
-        private readonly IMapper _mapper;
+        private readonly IMapper _mapper; 
 
         public ExpenseService(ApplicationDbContext dbContext, MembershipNumberHelper membershipNumberHelper, IMapper mapper) 
         {
