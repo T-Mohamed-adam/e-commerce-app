@@ -1,0 +1,6 @@
+       @TagerProject_HostAddress = http://localhost:5285
+
+GET {{TagerProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
