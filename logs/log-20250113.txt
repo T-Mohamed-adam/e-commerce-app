@@ -1,0 +1,472 @@
+2025-01-13 11:55:56.315 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 11:55:56.337 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 11:56:56.360 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 11:56:56.369 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 11:57:56.380 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 11:57:56.387 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 11:58:56.413 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 11:58:56.422 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 11:59:56.450 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 11:59:56.457 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:00:56.476 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:00:56.485 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:01:56.505 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:01:56.514 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:02:56.539 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:02:56.556 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:03:56.584 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:03:56.593 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:04:56.625 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:04:56.633 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:05:56.660 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:05:56.683 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:06:56.723 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:06:56.732 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:07:56.771 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:07:56.782 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:08:56.803 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:08:56.815 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:09:56.838 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:09:56.846 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:10:56.877 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:10:56.884 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:11:56.905 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:11:56.913 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:12:56.940 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:12:56.950 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:13:56.974 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:13:56.979 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:14:57.004 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:14:57.015 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:15:57.064 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:15:57.072 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:16:57.095 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:16:57.112 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:17:57.137 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:17:57.146 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:18:57.170 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:18:57.177 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:19:57.209 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:19:57.225 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:20:57.242 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:20:57.251 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:21:57.273 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:21:57.281 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:22:57.332 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:22:57.340 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:23:57.358 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:23:57.367 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:24:57.384 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:24:57.391 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:25:57.447 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:25:57.454 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:26:57.476 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:26:57.489 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:27:57.514 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:27:57.523 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:28:57.539 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:28:57.547 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:29:57.579 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:29:57.589 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:30:57.607 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:30:57.620 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:31:57.647 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:31:57.653 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:32:57.669 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:32:57.675 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:33:57.695 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:33:57.703 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:34:57.734 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:34:57.741 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:35:57.769 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:35:57.777 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:36:57.807 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:36:57.815 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:37:57.850 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:37:57.857 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:38:57.885 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:38:57.893 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:39:57.915 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:39:57.922 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:40:57.943 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:40:57.951 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:41:57.982 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:41:57.989 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:42:58.008 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:42:58.016 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:43:58.046 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:43:58.055 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:44:58.083 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:44:58.091 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:45:58.110 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:45:58.121 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:46:58.147 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:46:58.157 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:47:58.214 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:47:58.223 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:48:58.251 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:48:58.263 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:49:58.292 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:49:58.301 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:50:58.324 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:50:58.338 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:51:58.367 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:51:58.376 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:52:58.396 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:52:58.405 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-13 12:53:58.434 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-13 12:53:58.442 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)

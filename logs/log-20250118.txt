@@ -1,0 +1,72 @@
+2025-01-18 13:54:52.321 +03:00 [INF] User profile is available. Using 'C:\Users\pc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-18 13:54:55.265 +03:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Expense'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.275 +03:00 [WRN] No store type was specified for the decimal property 'ExpectedRevenue' on entity type 'Inventory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.277 +03:00 [WRN] No store type was specified for the decimal property 'PurchaseUnitPrice' on entity type 'Inventory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.279 +03:00 [WRN] No store type was specified for the decimal property 'SalesUnitPrice' on entity type 'Inventory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.281 +03:00 [WRN] No store type was specified for the decimal property 'TotalPurchasePrice' on entity type 'Inventory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.284 +03:00 [WRN] No store type was specified for the decimal property 'TotalSalesPrice' on entity type 'Inventory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.286 +03:00 [WRN] No store type was specified for the decimal property 'DiscountAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.290 +03:00 [WRN] No store type was specified for the decimal property 'FinalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.292 +03:00 [WRN] No store type was specified for the decimal property 'PaidAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.295 +03:00 [WRN] No store type was specified for the decimal property 'TaxAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.319 +03:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.330 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.343 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Package'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.349 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.352 +03:00 [WRN] No store type was specified for the decimal property 'PriceIncludeTax' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.360 +03:00 [WRN] No store type was specified for the decimal property 'TotalAmount' on entity type 'Purchase'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.371 +03:00 [WRN] No store type was specified for the decimal property 'SalesUnitPrice' on entity type 'PurchaseItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:55.374 +03:00 [WRN] No store type was specified for the decimal property 'UnitPrice' on entity type 'PurchaseItem'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-01-18 13:54:57.520 +03:00 [INF] Now listening on: https://localhost:7195
+2025-01-18 13:54:57.601 +03:00 [INF] Now listening on: http://localhost:5285
+2025-01-18 13:54:57.659 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-18 13:54:57.666 +03:00 [INF] Hosting environment: Development
+2025-01-18 13:54:57.668 +03:00 [INF] Content root path: C:\aspnetcore\TagerProject\TagerProject
+2025-01-18 13:54:58.739 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/index.html - null null
+2025-01-18 13:54:59.314 +03:00 [INF] Executed DbCommand (292ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-18 13:54:59.442 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/index.html - 200 null text/html;charset=utf-8 712.9955ms
+2025-01-18 13:54:59.538 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-18 13:54:59.610 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7195/_vs/browserLink - null null
+2025-01-18 13:54:59.646 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 108.3968ms
+2025-01-18 13:54:59.780 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7195/_vs/browserLink - 200 null text/javascript; charset=UTF-8 170.8001ms
+2025-01-18 13:54:59.874 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - null null
+2025-01-18 13:54:59.953 +03:00 [INF] Executed DbCommand (223ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-18 13:55:00.435 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7195/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 561.6132ms
+2025-01-18 13:56:00.136 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-18 13:56:00.161 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-18 13:57:00.412 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-18 13:57:00.515 +03:00 [INF] Executed DbCommand (97ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-18 13:58:00.586 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-18 13:58:00.599 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)
+2025-01-18 13:59:00.641 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@__now_0='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[EndDate], [s].[PackageId], [s].[StartDate]
+FROM [Subscriptions] AS [s]
+WHERE [s].[EndDate] <= @__now_0
+2025-01-18 13:59:00.654 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__expiredSubscription_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [o].[Id], [o].[Address], [o].[BusinessName], [o].[CityId], [o].[CommercialRegister], [o].[Email], [o].[FirstName], [o].[IsActive], [o].[IsDeleted], [o].[LastName], [o].[MembershipNumber], [o].[Password], [o].[PhoneNumber], [o].[SubscriptionId], [o].[TIN]
+FROM [Owners] AS [o]
+WHERE [o].[SubscriptionId] = @__expiredSubscription_Id_0 AND [o].[IsActive] = CAST(1 AS bit)

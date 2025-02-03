@@ -57,8 +57,6 @@ namespace TagerProject.Controllers
         public async Task<IActionResult> UpdateOwner(int id, OwnerUpdateRequest ownerUpdateRequest) 
         {
 
-            try
-            {
                 var owner = await _ownerService.UpdateOwner(id, ownerUpdateRequest);
 
                 if (owner is null)
@@ -67,11 +65,7 @@ namespace TagerProject.Controllers
                 }
 
                 return Ok(owner);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            
         }
 
         // Delete specific owner data 

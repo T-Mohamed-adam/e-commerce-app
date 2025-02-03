@@ -18,9 +18,17 @@ namespace TagerProject.Models.Dtos.Product
         public bool IsActive { get; set; }
         public bool IsDeleted { get; set; }
 
-        public string? CategoryName { get; set; }
+        public string? CategoryNameAr { get; set; }
+        public string? CategoryNameEn { get; set; }
+        public int? TaxValue { get; set; }
+        public string? BrandNameAr { get; set; }
+        public string? BrandNameEn { get; set; }
 
-        public virtual TagerProject.Models.Entities.Category? Category { get; set; }
-        public virtual TagerProject.Models.Entities.Tax? Tax { get; set; }
+        public string? UnitNameAr { get; set; }
+        public string? UnitNameEn { get; set; }
+        public int Quantity { get; set; }
+
+        /*    public virtual TagerProject.Models.Entities.Category? Category { get; set; }
+            public virtual TagerProject.Models.Entities.Tax? Tax { get; set; }*/
     }
 }

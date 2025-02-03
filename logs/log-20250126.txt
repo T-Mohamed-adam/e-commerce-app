@@ -1,0 +1,88 @@
+2025-01-26 12:34:33.373 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:35:33.399 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:36:33.421 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:37:33.444 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:38:33.450 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:39:33.480 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:40:33.556 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:41:33.567 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:42:33.589 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:43:33.612 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:44:33.641 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:45:33.665 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:46:33.767 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:47:33.786 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:48:33.810 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:49:33.825 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:50:33.851 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:51:33.876 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:52:34.070 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:53:34.084 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:54:34.107 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0
+2025-01-26 12:55:34.132 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__now_0='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT s."Id", s."EndDate", s."PackageId", s."StartDate"
+FROM "Subscriptions" AS s
+WHERE s."EndDate" <= @__now_0

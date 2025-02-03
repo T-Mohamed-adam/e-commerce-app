@@ -25,6 +25,15 @@ namespace TagerProject.Data
         public DbSet<Expense> Expenses { get; set; }
         public DbSet<Discount> Discounts  { get; set; }
         public DbSet<Coupon> Coupons { get; set; }
-         
+
+        public DbSet<PaymentType> PaymentTypes { get; set; }
+        public DbSet<PaymentMethod> PaymentMethods { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+
+        public DbSet<Purchase> Purchases { get; set; }
+        public DbSet<PurchaseItem> PurchaseItems { get; set; }
+        public DbSet<Inventory> Inventories { get; set; }
+
     }
 }

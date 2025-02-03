@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace TagerProject.Models.Entities
 {
@@ -44,6 +45,12 @@ namespace TagerProject.Models.Entities
         public virtual Unit? Unit { get; set; }
 
 
+        [JsonIgnore]
+        public virtual ICollection<OrderItem>? OrderItems { get; set; }
+        [JsonIgnore]
+        public virtual ICollection<PurchaseItem>?  PurchaseItems { get; set; }
+        [JsonIgnore]
+        public virtual ICollection<Inventory>? Inventories { get; set; }
 
 
     }

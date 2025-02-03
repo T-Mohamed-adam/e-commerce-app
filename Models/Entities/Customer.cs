@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace TagerProject.Models.Entities
 {
@@ -26,5 +27,8 @@ namespace TagerProject.Models.Entities
 
         [ForeignKey("CityId")]
         public virtual City? City { get; set; }
+
+        [JsonIgnore]
+        public virtual ICollection<Order>? Orders { get; set; }
     }
 }

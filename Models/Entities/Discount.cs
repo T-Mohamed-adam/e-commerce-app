@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace TagerProject.Models.Entities
 {
@@ -24,6 +25,9 @@ namespace TagerProject.Models.Entities
         public string? MembershipNumber { get; set; }
         public bool IsActive { get; set; } = true;
         public bool IsDeleted { get; set; } = false;
+
+        [JsonIgnore]
+        public virtual ICollection<Order>? Orders { get; set; }
 
 
     }

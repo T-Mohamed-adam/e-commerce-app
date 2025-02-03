@@ -24,19 +24,98 @@ namespace TagerProject.Services
             _mapper = mapper;
         }
 
+        /*  public async Task<List<ProductResponse>> GetAllProducts()
+          {
+              var membershipNumber = _membershipNumberHelper.GetMembershipNumber();
+
+              var products = await _dbContext.Products
+                  .Where(p => p.MembershipNumber == membershipNumber && p.IsDeleted == false)
+                  .Include(p => p.Category).Include(p => p.Tax)
+                  .ToListAsync();
+
+              return _mapper.Map<List<ProductResponse>>(products);
+          }*/
+
         public async Task<List<ProductResponse>> GetAllProducts()
         {
             var membershipNumber = _membershipNumberHelper.GetMembershipNumber();
 
-            var products = await _dbContext.Products
-                .Where(p => p.MembershipNumber == membershipNumber && p.IsDeleted == false)
-                .Include(p => p.Category).Include(p => p.Tax)
-                .ToListAsync();
+            var products = await (from p in _dbContext.Products
+                                  join c in _dbContext.Categories on p.CategoryId equals c.Id
+                                  join t in _dbContext.Taxes on p.TaxId equals t.Id
+                                  join u in _dbContext.Units on p.UnitId equals u.Id
+                                  join b in _dbContext.Brands on p.BrandId equals b.Id
+                                  join i in _dbContext.Inventories on p.Id equals i.ProductId
+                                  where p.MembershipNumber == membershipNumber && p.IsDeleted == false
+                                  select new ProductResponse
+                                  {
+                                      Id = p.Id,
+                                      BrandId = p.BrandId,
+                                      CategoryId = p.CategoryId,
+                                      TaxId = p.TaxId,
+                                      UnitId = p.UnitId,
+                                      NameAr = p.NameAr,
+                                      NameEn = p.NameEn,
+                                      Description = p.Description,
+                                      ImageUrl = p.ImageUrl,
+                                      Price = p.Price,
+                                      PriceIncludeTax = p.PriceIncludeTax,
+                                      MembershipNumber = p.MembershipNumber,
+                                      IsActive = p.IsActive,
+                                      IsDeleted = p.IsDeleted,
+                                      CategoryNameAr = c.NameAr,
+                                      CategoryNameEn = c.NameEn,
+                                      TaxValue = t.Value,
+                                      BrandNameAr = b.NameAr,
+                                      BrandNameEn = b.NameEn,
+                                      UnitNameAr = u.NameAr,
+                                      UnitNameEn = u.NameEn,
+                                      Quantity = i.Quantity,
+                                  }).ToListAsync();
 
-            return _mapper.Map<List<ProductResponse>>(products);
+            return products;
+        }
+        public async Task<ProductResponse?> GetProductById(int id)
+        {
+            var membershipNumber = _membershipNumberHelper.GetMembershipNumber();
+
+            var products = await (from p in _dbContext.Products
+                                  join c in _dbContext.Categories on p.CategoryId equals c.Id
+                                  join t in _dbContext.Taxes on p.TaxId equals t.Id
+                                  join u in _dbContext.Units on p.UnitId equals u.Id
+                                  join b in _dbContext.Brands on p.BrandId equals b.Id
+                                  join i in _dbContext.Inventories on p.Id equals i.ProductId
+                                  where p.MembershipNumber == membershipNumber && p.IsDeleted == false && p.Id == id
+                                  select new ProductResponse
+                                  {
+                                      Id = p.Id,
+                                      BrandId = p.BrandId,
+                                      CategoryId = p.CategoryId,
+                                      TaxId = p.TaxId,
+                                      UnitId = p.UnitId,
+                                      NameAr = p.NameAr,
+                                      NameEn = p.NameEn,
+                                      Description = p.Description,
+                                      ImageUrl = p.ImageUrl,
+                                      Price = p.Price,
+                                      PriceIncludeTax = p.PriceIncludeTax,
+                                      MembershipNumber = p.MembershipNumber,
+                                      IsActive = p.IsActive,
+                                      IsDeleted = p.IsDeleted,
+                                      CategoryNameAr = c.NameAr,
+                                      CategoryNameEn = c.NameEn,
+                                      TaxValue = t.Value,
+                                      BrandNameAr = b.NameAr,
+                                      BrandNameEn = b.NameEn,
+                                      UnitNameAr = u.NameAr,
+                                      UnitNameEn = u.NameEn,
+                                      Quantity = i.Quantity,
+                                  }).FirstOrDefaultAsync();
+
+            return products;
         }
 
-        public async Task<ProductResponse?> GetProductById(int id)
+      /*  public async Task<ProductResponse?> GetProductById(int id)
         {
             var membershipNumber = _membershipNumberHelper.GetMembershipNumber();
 
@@ -50,7 +129,7 @@ namespace TagerProject.Services
             }
 
             return _mapper.Map<ProductResponse>(product);
-        }
+        }*/
 
         public async Task<ProductResponse?> AddProduct(ProductAddRequest productAddRequest)
         {

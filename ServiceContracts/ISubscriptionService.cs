@@ -2,5 +2,6 @@
 {
     public interface ISubscriptionService
     {
+        public Task DeactivateExpiredSubscriptions();
     }
 }

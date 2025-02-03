@@ -13,7 +13,6 @@ namespace TagerProject.Models.Dtos.Owner
         public string? Address { get; set; }
         public string? BusinessName { get; set; }
         public string? Password { get; set; }
-        public string? ConfirmPassword { get; set; }
         public string? TIN { get; set; }
         public string? CommercialRegister { get; set; }
         public string? MembershipNumber { get; set; }

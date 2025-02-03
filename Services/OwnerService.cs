@@ -55,8 +55,8 @@ namespace TagerProject.Services
             Subscription subscription = new Subscription() 
             {
                 PackageId = ownerAddRequest.PackageId,
-                StartDate = DateTime.Now,
-                EndDate = DateTime.Now.AddYears(1),
+                StartDate = ownerAddRequest.StartDate.ToUniversalTime(),
+                EndDate = ownerAddRequest.EndDate.ToUniversalTime(),
             };
             await _dbContext.AddAsync(subscription);
             await _dbContext.SaveChangesAsync();
@@ -69,6 +69,7 @@ namespace TagerProject.Services
                 PhoneNumber = ownerAddRequest.PhoneNumber,
                 Email = ownerAddRequest.Email,
                 BusinessName = ownerAddRequest.BusinessName,
+                Address = ownerAddRequest.Address,
                 TIN = ownerAddRequest.TIN,
                 CommercialRegister = ownerAddRequest.CommercialRegister,
                 Password = _passwordHashingHelper.HashPassword(ownerAddRequest.Password!),
@@ -96,6 +97,7 @@ namespace TagerProject.Services
             owner.PhoneNumber = ownerUpdateRequest.PhoneNumber;
             owner.Email = ownerUpdateRequest.Email;
             owner.BusinessName = ownerUpdateRequest.BusinessName;
+            owner.Address = ownerUpdateRequest.Address;
             owner.TIN = ownerUpdateRequest.TIN;
             owner.CommercialRegister = ownerUpdateRequest.CommercialRegister;
             owner.Password = _passwordHashingHelper.HashPassword(ownerUpdateRequest.Password!);

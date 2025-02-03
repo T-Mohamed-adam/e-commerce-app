@@ -68,7 +68,7 @@ namespace TagerProject.Services
                 category.ImageUrl = await _fileHelper.SaveImageAsync(categoryAddRequest.Image);
             }
 
-            await _dbContext.Categories.AddAsync(category);
+            await _dbContext.AddAsync(category);
             await _dbContext.SaveChangesAsync();
 
             return _mapper.Map<CategoryResponse>(category);

@@ -2,11 +2,13 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Serilog;
 using System.Text;
 using TagerProject.Data;
 using TagerProject.Helpers;
 using TagerProject.ServiceContracts;
 using TagerProject.Services;
+using TagerProject.BackgroundServices;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -72,9 +74,19 @@ builder.Services.AddScoped<IExpenseService, ExpenseService>();
 builder.Services.AddScoped<IDiscountService, DiscountService>();
 builder.Services.AddScoped<ICouponService, CouponService>();
 
+builder.Services.AddScoped<IPaymentTypeService, PaymentTypeService>();
+builder.Services.AddScoped<IPaymentMethodService, PaymentMethodService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+
+builder.Services.AddScoped<IInventoryService, InventoryService>();
+builder.Services.AddScoped<IPurchaseService, PurchaseService>();
+
+builder.Services.AddScoped<IEmailService, EmailService>();
+
+
 // Database connection 
 builder.Services.AddDbContext<ApplicationDbContext>(options => 
-options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add CORS services
 builder.Services.AddCors(options =>
@@ -91,7 +103,26 @@ builder.Services.AddCors(options =>
 // Register AutoMapper
 builder.Services.AddAutoMapper(typeof(Program));
 
+
+// Add debug logging
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+builder.Logging.ClearProviders();
+builder.Logging.AddSerilog();
+
+
+
+// Register the hosted service
+builder.Services.AddHostedService<SubscriptionHostedService>();
+builder.Services.AddScoped<ISubscriptionService, SubscriptionService>();
+
 var app = builder.Build();
+
+// Use CORS policy
+app.UseCors("AllowAll");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
